@@ -1,0 +1,2 @@
+D:\Project\Unreal_Project\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\Definitions.FPSGame.h
+D:\Project\Unreal_Project\StealthGame\Source\FPSGame\FPSGame.h

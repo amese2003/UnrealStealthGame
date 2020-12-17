@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Project\\Unreal_Project\\StealthGame\\Source\\FPSGame\\FPSGame.Build.cs",
+		"D:\\Project\\Unreal_Project\\StealthGame\\Source\\FPSGame.Target.cs",
+		"D:\\Project\\Unreal_Project\\StealthGame\\Source\\FPSGameEditor.Target.cs"
+	],
+	"EngineVersion": "4.26.0"
+}

@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "FPSGame",
+			"Path": "D:\\Project\\Unreal_Project\\StealthGame\\Source\\FPSGame.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "FPSGameEditor",
+			"Path": "D:\\Project\\Unreal_Project\\StealthGame\\Source\\FPSGameEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
