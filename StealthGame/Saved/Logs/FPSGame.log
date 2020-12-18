@@ -2401,3 +2401,39 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.12.18-08.35.24:064][145]LogSavePackage: Moving 'D:/Project/Unreal_Project/UnrealStealthGame/StealthGame/Saved/FirstPersonExampleMap_Auto1F1D9921E4DD3B7B8347FFD87EB58F72C.tmp' to 'D:/Project/Unreal_Project/UnrealStealthGame/StealthGame/Saved/Autosaves/Game/Maps/FirstPersonExampleMap_Auto1.umap'
 [2020.12.18-08.35.24:069][145]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/FirstPersonExampleMap' took 0.053
 [2020.12.18-08.35.24:069][145]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.053
+[2020.12.18-08.39.46:702][254]LogVSAccessor: Warning: Couldn't goto line number '1' in 'D:/Project/Unreal_Project/UnrealStealthGame/StealthGame/Source/FPSGame/Public/FPSHUD.h'
+[2020.12.18-08.39.46:902][254]LogVSAccessor: Warning: Couldn't goto line number '1' in 'D:/Project/Unreal_Project/UnrealStealthGame/StealthGame/Source/FPSGame/Private/FPSHUD.cpp'
+[2020.12.18-08.40.00:379][250]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_ObjectiveInfo" FILE="D:/Project/Unreal_Project/UnrealStealthGame/StealthGame/Content/UI/WBP_ObjectiveInfo.uasset" SILENT=true
+[2020.12.18-08.40.00:394][250]LogSavePackage: Moving 'D:/Project/Unreal_Project/UnrealStealthGame/StealthGame/Saved/WBP_ObjectiveInfo66018493428BBFE875C288B943178030.tmp' to 'D:/Project/Unreal_Project/UnrealStealthGame/StealthGame/Content/UI/WBP_ObjectiveInfo.uasset'
+[2020.12.18-08.40.00:405][250]AssetCheck: New page: 애셋 저장: WBP_ObjectiveInfo
+[2020.12.18-08.40.00:405][250]LogContentValidation: Display: WidgetBlueprint /Game/UI/WBP_ObjectiveInfo.WBP_ObjectiveInfo 유효성 검사
+[2020.12.18-08.40.01:652][332]BlueprintLog: New page: WBP_ObjectiveInfo 컴파일
+[2020.12.18-08.40.01:689][332]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2020.12.18-08.40.05:202][651]Candidate modules for hot reload:
+[2020.12.18-08.40.05:202][651]  FPSGame
+[2020.12.18-08.40.05:202][651]Launching UnrealBuildTool... [F:/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FPSGame,9923 FPSGameEditor Win64 Development -Project="D:/Project/Unreal_Project/UnrealStealthGame/StealthGame/FPSGame.uproject" "D:/Project/Unreal_Project/UnrealStealthGame/StealthGame/FPSGame.uproject"  -IgnoreJunk]
+[2020.12.18-08.40.05:204][651]Warning: Starting HotReload took  0.0s.
+[2020.12.18-08.40.08:730][775]CompilerResultsLog: New page: 컴파일 - 2020. 12. 19. 오전 2:40:08
+[2020.12.18-08.40.08:731][775]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Project\Unreal_Project\UnrealStealthGame).
+[2020.12.18-08.40.08:731][775]CompilerResultsLog: Building FPSGameEditor...
+[2020.12.18-08.40.08:731][775]CompilerResultsLog: Using Visual Studio 2019 14.28.29334 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.12.18-08.40.08:731][775]CompilerResultsLog: [Upgrade]
+[2020.12.18-08.40.08:731][775]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.12.18-08.40.08:731][775]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.12.18-08.40.08:731][775]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.12.18-08.40.08:731][775]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.12.18-08.40.08:731][775]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in FPSGameEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.12.18-08.40.08:731][775]CompilerResultsLog: [Upgrade]
+[2020.12.18-08.40.08:731][775]CompilerResultsLog: Building 3 actions with 4 processes...
+[2020.12.18-08.40.08:731][775]CompilerResultsLog:   [1/3] UE4Editor-FPSGame-9923.lib
+[2020.12.18-08.40.08:731][775]CompilerResultsLog:      D:\Project\Unreal_Project\UnrealStealthGame\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\UE4Editor-FPSGame-9923.lib ???̺귯?? ?? D:\Project\Unreal_Project\UnrealStealthGame\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\UE4Editor-FPSGame-9923.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2020.12.18-08.40.08:731][775]CompilerResultsLog:   [2/3] UE4Editor-FPSGame-9923.dll
+[2020.12.18-08.40.08:731][775]CompilerResultsLog:      D:\Project\Unreal_Project\UnrealStealthGame\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\UE4Editor-FPSGame-9923.suppressed.lib ???̺귯?? ?? D:\Project\Unreal_Project\UnrealStealthGame\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\UE4Editor-FPSGame-9923.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2020.12.18-08.40.08:731][775]CompilerResultsLog:   [3/3] FPSGameEditor.target
+[2020.12.18-08.40.08:731][775]CompilerResultsLog: Total time in Parallel executor: 2.08 seconds
+[2020.12.18-08.40.08:731][775]CompilerResultsLog: Total execution time: 3.29 seconds
+[2020.12.18-08.40.08:731][775]LogMainFrame: MainFrame: Module compiling took 3.537 seconds
+[2020.12.18-08.40.08:773][775]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'FPSGame' in 0.0003 seconds. Added 5 classes and 3 folders.
+[2020.12.18-08.40.08:777][775]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2020.12.18-08.40.08:869][775]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0106 seconds. Added 3606 classes and 862 folders.
+[2020.12.18-08.40.08:870][775]Display: HotReload took  3.7s.
