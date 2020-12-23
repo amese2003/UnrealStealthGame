@@ -6,6 +6,8 @@
 #include "DrawDebugHelpers.h"
 #include "FPSGameMode.h"
 
+
+
 // Sets default values
 AFPSAIGuard::AFPSAIGuard()
 {
@@ -17,6 +19,7 @@ AFPSAIGuard::AFPSAIGuard()
 	PawnSensingComp->OnSeePawn.AddDynamic(this, &AFPSAIGuard::OnPawnSeen);
 	PawnSensingComp->OnHearNoise.AddDynamic(this, &AFPSAIGuard::OnNoiseHeard);
 
+	GuardState = EAIstate::Idle;
 }
 
 // Called when the game starts or when spawned
@@ -38,9 +41,14 @@ void AFPSAIGuard::OnPawnSeen(APawn* SeenPawn)
 	if (GM) {
 		GM->CompleteMission(SeenPawn, false);
 	}
+
+	SetGuardState(EAIstate::Alerted);
 }
 
 void AFPSAIGuard::OnNoiseHeard(APawn* NoiseInstigator, const FVector& Location, float Volumn) {
+	if (GuardState == EAIstate::Alerted) 
+		return;
+
 	DrawDebugSphere(GetWorld(), Location, 32.0f, 12, FColor::Green, false, 10.0f);
 
 	FVector Direction = Location - GetActorLocation();
@@ -51,12 +59,30 @@ void AFPSAIGuard::OnNoiseHeard(APawn* NoiseInstigator, const FVector& Location, 
 	NewLookAt.Roll = 0.0f;
 	SetActorRotation(NewLookAt);
 
+	SetGuardState(EAIstate::suspicious);
+		
+
 	GetWorldTimerManager().ClearTimer(TimerHandle_ResetOrientation);	
 	GetWorldTimerManager().SetTimer(TimerHandle_ResetOrientation, this, &AFPSAIGuard::ResetOrientation, 3.0f);
 }
 
 void AFPSAIGuard::ResetOrientation() {
+	if (GuardState == EAIstate::Alerted)
+		return;
+
 	SetActorRotation(OriginalRotation);
+
+	SetGuardState(EAIstate::Idle);
+}
+
+void AFPSAIGuard::SetGuardState(EAIstate newState)
+{
+	if (GuardState == newState)
+		return;
+
+	GuardState = newState;
+
+	OnStateChanged(GuardState);
 }
 
 // Called every frame
