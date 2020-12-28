@@ -1,4 +1,8 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Project\Unreal_Project\UnrealStealthGame).
+  Deleted hot-reload file: D:\Project\Unreal_Project\UnrealStealthGame\StealthGame\Binaries\Win64\UE4Editor-FPSGame-0002.dll
+  Deleted hot-reload file: D:\Project\Unreal_Project\UnrealStealthGame\StealthGame\Binaries\Win64\UE4Editor-FPSGame-0003.dll
+  Deleted hot-reload file: D:\Project\Unreal_Project\UnrealStealthGame\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\UE4Editor-FPSGame-0002.lib
+  Deleted hot-reload file: D:\Project\Unreal_Project\UnrealStealthGame\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\UE4Editor-FPSGame-0003.lib
   Building FPSGameEditor...
   Using Visual Studio 2019 14.28.29334 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   [Upgrade]
@@ -9,10 +13,10 @@
   [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in FPSGameEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
   [Upgrade]
   Building 3 actions with 4 processes...
-    [1/3] UE4Editor-FPSGame-0004.lib
-       D:\Project\Unreal_Project\UnrealStealthGame\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\UE4Editor-FPSGame-0004.lib ���̺귯�� �� D:\Project\Unreal_Project\UnrealStealthGame\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\UE4Editor-FPSGame-0004.exp ��ü�� �����ϰ� �ֽ��ϴ�.
-    [2/3] UE4Editor-FPSGame-0004.dll
-       D:\Project\Unreal_Project\UnrealStealthGame\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\UE4Editor-FPSGame-0004.suppressed.lib ���̺귯�� �� D:\Project\Unreal_Project\UnrealStealthGame\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\UE4Editor-FPSGame-0004.suppressed.exp ��ü�� �����ϰ� �ֽ��ϴ�.
+    [1/3] UE4Editor-FPSGame.lib
+       D:\Project\Unreal_Project\UnrealStealthGame\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\UE4Editor-FPSGame.lib ���̺귯�� �� D:\Project\Unreal_Project\UnrealStealthGame\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\UE4Editor-FPSGame.exp ��ü�� �����ϰ� �ֽ��ϴ�.
+    [2/3] UE4Editor-FPSGame.dll
+       D:\Project\Unreal_Project\UnrealStealthGame\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\UE4Editor-FPSGame.suppressed.lib ���̺귯�� �� D:\Project\Unreal_Project\UnrealStealthGame\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\UE4Editor-FPSGame.suppressed.exp ��ü�� �����ϰ� �ֽ��ϴ�.
     [3/3] FPSGameEditor.target
-  Total time in Parallel executor: 1.14 seconds
-  Total execution time: 1.86 seconds
+  Total time in Parallel executor: 0.91 seconds
+  Total execution time: 1.67 seconds
