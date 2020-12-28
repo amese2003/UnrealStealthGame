@@ -26,3 +26,6 @@ F:\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Dialo
 F:\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStaticsTypes.h
 F:\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
 F:\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
+F:\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Components/PawnNoiseEmitterComponent.h
+F:\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PawnNoiseEmitterComponent.generated.h
+F:\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\Net/UnrealNetwork.h
